@@ -17,7 +17,6 @@ def parse_program_args():
     preset_subparser.add_argument(
         'difficulty',
         choices=GAME_PRESETS.NAMES.keys(),
-        required=True,
         help="Pick a preset"
     )
 

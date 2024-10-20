@@ -29,9 +29,9 @@ class MinesweeperGenerationPresets(object):
     )
 
     NAMES = {
-        'Easy': EASY,
-        'Medium': MEDIUM,
-        'Hard': HARD
+        'easy': EASY,
+        'medium': MEDIUM,
+        'hard': HARD
     }
 
     def __str__(self):
